@@ -18,5 +18,9 @@ const config = {
     defaultLocale: "en",
   },
 };
-
+export default defineNextConfig({
+  reactStrictMode: true,
+  swcMinify: true,
+ output: "standalone",
+});
 export default config;
